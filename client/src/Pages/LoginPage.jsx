@@ -19,8 +19,7 @@ export default function LoginPage() {
         {
           email,
           password,
-        },
-        { withCredentials: true }
+        }
       ); //withCedentials: true be faile
       setUser(data);
       alert("Login successful");
